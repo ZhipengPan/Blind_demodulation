@@ -85,9 +85,11 @@ title('载波粗同步+定时同步后')
 subplot(2,2,3);
 plot(real(data_carr_sync), imag(data_carr_sync),'g*');
 title('载波精同步后');
+axis([-1.5 1.5 -1.5 1.5]);
 subplot(2,2,4);
 plot(real(data_equa), imag(data_equa),'k*');
 title('均衡后');
+axis([-1.5 1.5 -1.5 1.5]);
 pause(0.001);
 end
 fclose(fid_in);
