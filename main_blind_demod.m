@@ -45,7 +45,7 @@ data_buff_CMA_in = [];              % 均衡
 weight_ini_CMA = [];
 %===============================================================
 fid_in = fopen('.\wave\wave_sin_Fs960K_Fc5e6_16QAM_SNR20dB.dat','r');
-read_size = 2500*1024;                % 每次读文件大小
+read_size = 25*1024;                % 每次读文件大小
 figure;
 while ~feof(fid_in)
 data = fread(fid_in,read_size, 'int16','l');
