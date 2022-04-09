@@ -54,6 +54,6 @@ SNR = 10^(SNR_dB/10);
 noise = sqrt(mean(trans_wave.^2) / SNR) * randn(length(trans_wave),1);
 recv_wave = trans_wave + noise;
 plot(recv_wave);
-fid_out = fopen('wave_sin_Fs960K_Fc5e6_8PSK_SNR20dB.dat','w');
+fid_out = fopen('.\wave\wave_sin_Fs960K_Fc5e6_8PSK_SNR20dB.dat','w');
 fwrite(fid_out,recv_wave*4096,'int16','l');
 fclose(fid_out);
