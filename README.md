@@ -26,7 +26,7 @@
 1. 构造波形图与语谱图：
 ![16QAM波形图](https://github.com/ZhipengPan/Blind_demodulation/blob/main/figure/16QAM_波形.PNG)
 
-![16QAM语谱图(https://github.com/ZhipengPan/Blind_demodulation/blob/main/figure/16QAM_语谱图.PNG)
+![16QAM语谱图](https://github.com/ZhipengPan/Blind_demodulation/blob/main/figure/16QAM_语谱图.PNG)
 
 2. 解调星座图
 ![16QAM解调后星座图](https://github.com/ZhipengPan/Blind_demodulation/blob/main/figure/result_16QAM.png)
