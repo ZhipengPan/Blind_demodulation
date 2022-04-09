@@ -13,15 +13,5 @@
 盲解调主程序：
 
 ## 整体结构
-```flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
+![整体结构](https://github.com/ZhipengPan/Blind_demodulation/blob/main/figure/%E4%B8%BB%E4%BD%93%E6%9E%B6%E6%9E%84.png)
 
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
-```
